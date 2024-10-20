@@ -7,3 +7,21 @@ signal = np.sin(2 * np.pi * 50 * t) + 0.2 * np.sin(2 * np.pi * 150 * t)
 
 # Save the signal for testing
 np.savetxt('sample_signal.txt', signal)
+
+# Harmonic Analysis Tool
+
+## Overview
+This tool performs harmonic analysis on AC signals, computes Total Harmonic Distortion (THD), and displays individual harmonics.
+
+## Requirements
+- Python 3.x
+- Numpy
+- Matplotlib
+
+## Installation
+Clone the repository and install the required packages:
+```bash
+git clone https://github.com/yasha07-code/ha-assignment.git
+cd ha-assignment
+pip install -r requirements.txt
+
